@@ -1,0 +1,73 @@
+.LogosList {
+	background-color: rgba(255, 255, 255, 0.25);
+	display: grid;
+	grid-template-rows: 1;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.Logos {
+	justify-self: center;
+	align-self: center;
+}
+
+#Logo1 {
+	grid-row: 1;
+	grid-column: 1 / 2;
+}
+
+#Logo2 {
+	grid-row: 1;
+	grid-column: 2 / 3;
+}
+
+#Logo3 {
+	grid-row: 1;
+	grid-column: 3 / 4;
+}
+
+#Logo4 {
+	grid-row: 1;
+	grid-column: 4 / 5;
+}
+
+#Logo5 {
+	grid-row: 1;
+	grid-column: 5 / 6;
+}
+
+#Logo6 {
+	grid-row: 1;
+	grid-column: 6 / 7;
+}
+
+#Logo7 {
+	grid-row: 1;
+	grid-column: 7 / 8;
+}
+
+#Logo8 {
+	grid-row: 1;
+	grid-column: 8 / 9;
+}
+
+@media only screen and (max-width: 600px) {
+	img.Logos {
+		max-width: 75px;
+		max-height: 75px;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	img.Logos {
+		max-width: 100px;
+		max-height: 100px;
+	}
+}
+
+@media only screen and (min-width: 901px) {
+	img.Logos {
+		max-width: 100px;
+		max-height: 100px;
+		padding: 10px 0;
+	}
+}
