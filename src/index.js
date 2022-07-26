@@ -1,20 +1,31 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import Hero from "./sections/Hero";
-import Collaboration from "./sections/Collaboration";
-import Footer from "./sections/Footer";
 import reportWebVitals from "./reportWebVitals";
+import Navbar from "./sections/Navbar";
+import Hero from "./sections/Hero";
+import Logos from "./sections/Logos";
 import Startup from "./sections/Startup";
+import Collaboration from "./sections/Collaboration";
+import Learn from "./sections/Learn";
+import Contact from "./sections/Contact";
+import Footer from "./sections/Footer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
-	<React.StrictMode>
-		<Hero />
-		<Startup />
-		<Collaboration />
-		<Footer />
-	</React.StrictMode>
+	<div className='HomePage'>
+		<div className='MainContent'>
+			<Navbar />
+			<Hero />
+			<Logos />
+			<Startup />
+			<Collaboration />
+			<Learn />
+			<Contact />
+			<Footer />
+		</div>
+	</div>
 );
 
 // If you want to start measuring performance in your app, pass a function

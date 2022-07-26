@@ -1,56 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@600&family=Merriweather+Sans&display=swap");
+
 .NameSection {
 	background-position: center;
 	background-color: rgba(255, 255, 221, 0.8);
 	color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
+}
+
+.Name {
+	font-family: "Catamaran", sans-serif;
+	text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
 	.NameSection {
-		width: 146;
-        height: 42;
-        border-radius: 10px;
+		padding: 5px 50px;
+		border-radius: 10px;
 	}
 
-    .Name {
-        font-family: 'Catamaran', sans-serif;
-        font-size: 18px;
-        text-align: center;
-        letter-spacing: 0.4em;
-        word-spacing: 1em;
-    }
+	.Name {
+		font-size: 1.25em;
+	}
 }
 
-@media only screen and (max-width: 900px) {
-    .NameSection {
-		width: 400;
-        height: 75;
-        border-radius: 15px;
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+	.NameSection {
+		padding: 0 50px;
+		border-radius: 15px;
 	}
 
-    .Name {
-        font-family: 'Catamaran', sans-serif;
-        font-size: 36px;
-        text-align: center;
-        letter-spacing: .4em;
-        word-spacing: 1em;
-    }
+	.Name {
+		font-size: 1.7em;
+	}
 }
 
 @media only screen and (min-width: 901px) {
-    .NameSection {
-		width: 600px;
-        height: 100px;
-        border-radius: 30px;
+	.NameSection {
+		padding: 0 50px;
+		border-radius: 30px;
 	}
 
-    .Name {
-        font-family: 'Catamaran', sans-serif;
-        font-size: 48px;
-        text-align: center;
-        letter-spacing: 0.25em;
-        word-spacing: 0.8em;
-    }
+	.Name {
+		font-size: 3em;
+	}
 }

@@ -1,8 +1,21 @@
+.LogosSection {
+	background-color: rgb(177, 177, 177);
+	display: flex;
+	justify-content: center;
+}
+
 .LogosList {
-	background-color: rgba(255, 255, 255, 0.25);
-	display: grid;
-	grid-template-rows: 1;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+
+ul.LogosList {
+	list-style: none;
+}
+
+li.Logos {
+	display: flex;
+	padding: 2px 10px;
 }
 
 .Logos {
@@ -10,64 +23,43 @@
 	align-self: center;
 }
 
-#Logo1 {
-	grid-row: 1;
-	grid-column: 1 / 2;
+img.LogoImg {
+	max-width: 75px;
+	max-height: 75px;
 }
 
-#Logo2 {
-	grid-row: 1;
-	grid-column: 2 / 3;
+/*@media only screen and (max-width: 600px) {
+	.LogosList {
+		padding: 2px;
+	}
+
+	.Logos {
+		max-width: 50px;
+		max-height: 50px;
+		padding: 2px;
+	}
 }
 
-#Logo3 {
-	grid-row: 1;
-	grid-column: 3 / 4;
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+	.LogosList {
+		padding: 3px;
+	}
+
+	.Logos {
+		max-width: 65px;
+		max-height: 65px;
+		padding: 3px;
+	}
 }
 
-#Logo4 {
-	grid-row: 1;
-	grid-column: 4 / 5;
-}
+@media only screen and (min-width: 901px){
+	.LogosList {
+		padding: 5px;
+	}
 
-#Logo5 {
-	grid-row: 1;
-	grid-column: 5 / 6;
-}
-
-#Logo6 {
-	grid-row: 1;
-	grid-column: 6 / 7;
-}
-
-#Logo7 {
-	grid-row: 1;
-	grid-column: 7 / 8;
-}
-
-#Logo8 {
-	grid-row: 1;
-	grid-column: 8 / 9;
-}
-
-@media only screen and (max-width: 600px) {
-	img.Logos {
+	.Logos {
 		max-width: 75px;
 		max-height: 75px;
+		padding: 5px;
 	}
-}
-
-@media only screen and (max-width: 900px) {
-	img.Logos {
-		max-width: 100px;
-		max-height: 100px;
-	}
-}
-
-@media only screen and (min-width: 901px) {
-	img.Logos {
-		max-width: 100px;
-		max-height: 100px;
-		padding: 10px 0;
-	}
-}
+}*/

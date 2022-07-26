@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@600&family=Merriweather+Sans&display=swap");
+
+.MobileAll {
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    position: relative;
+}
+
+.MobileIcon {
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.MobileMenu {
+	color: #afa2ff;
+	font-family: "Merriweather Sans", Arial, Helvetica, sans-serif;
+}
+
+.MobileMenu .myLinks {
+	list-style: none;
+    text-decoration: none;
+    display: block;
+}
+
+.MobileLink {
+    padding: 0.5em;
+    text-align: center;
+}
+
+.myLinks a {
+	color: #afa2ff;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.MobileLink:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+	color: #1A9DA2;
+}
