@@ -1,5 +1,3 @@
-import "./collaboration.css";
-
 function Collaboration() {
 	return (
 		<div className='Collaboration'>

@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@600&family=Merriweather+Sans&display=swap");
+
+.Wip {
+	background-color: white;
+	color: black;
+	font-family: "Catamaran", Arial, Helvetica, sans-serif;
+}
+
+h2.wipHeadline {
+	font-size: 1.5em;
+	text-align: center;
+}

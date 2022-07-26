@@ -1,4 +1,4 @@
-import "./hero.css";
+
 import Name from "./Name";
 import Title from "./Title";
 

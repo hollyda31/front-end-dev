@@ -1,4 +1,4 @@
-import "./name.css";
+
 
 function Name() {
 	return (

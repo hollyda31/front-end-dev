@@ -1,4 +1,4 @@
-import "./navbar.css";
+
 
 function Navbar() {
 	return (
@@ -6,12 +6,12 @@ function Navbar() {
 			<div className='Menu'>
 				<ul className='NavMenu'>
 					<li className='NavItem'>
-						<a href='../index.js'>Home</a>
+						<a href='/index'>Home</a>
 					</li>
-					<li className='NavItem'>Skills</li>
-					<li className='NavItem'>Resume</li>
-					<li className='NavItem'>Portfolio</li>
-					<li className='NavItem'>Contact</li>
+					<li className='NavItem'><a href='/Skills'>Skills</a></li>
+					<li className='NavItem'><a href='/Resume'>Resume</a></li>
+					<li className='NavItem'><a href='/Portfolio'>Portfolio</a></li>
+					<li className='NavItem'><a href='/Contact'>Contact</a></li>
 				</ul>
 			</div>
 		</div>

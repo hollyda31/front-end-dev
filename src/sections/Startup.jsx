@@ -1,4 +1,4 @@
-import "./startup.css";
+
 
 function Startup() {
 	return (
