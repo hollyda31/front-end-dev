@@ -2,11 +2,11 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/Contact": "pages/Contact.html",
-  "/Layout": "pages/Layout.html",
   "/Home": "pages/Home.html",
+  "/Layout": "pages/Layout.html",
   "/Portfolio": "pages/Portfolio.html",
-  "/Resume": "pages/Resume.html",
   "/Skills": "pages/Skills.html",
+  "/Resume": "pages/Resume.html",
   "/": "pages/index.html",
   "/_document": "pages/_document.js",
   "/404": "pages/404.html"
