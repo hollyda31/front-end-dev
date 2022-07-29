@@ -3,7 +3,7 @@
 function Footer() {
 	return (
 		<div className="Footer">
-			<p>&copy; 2002, Holly Antle</p>
+			<p>&copy; 2022, Holly Antle</p>
 		</div>
 	);
 }
